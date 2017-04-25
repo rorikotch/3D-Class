@@ -52,6 +52,10 @@ video {
   margin: 0 auto;
 }
 
+#sources {
+  font-size: 10px;
+  font-style: italic; 
+}
 
 
 
