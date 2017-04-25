@@ -1,5 +1,5 @@
-$(function() {
-  var myChart = Highcharts.chart("container", {
+
+Highcharts.chart("container", {
 
     title: {
         text: "U.S. Milk Production 1998 to 2017"
@@ -21,8 +21,8 @@ $(function() {
         }
     },
 
-    series: [{
+    series: {
         name: "Production",
         data: [16123000000, 16013000000, 16396000000, 17048000000, 17114000000, 17278000000, 17690000000, 17693000000, 18145000000]
     },
-});
+  })
