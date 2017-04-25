@@ -43,10 +43,16 @@ video {
   max-height: 100%;
 }
 
-#chart {
-  height: 100px;
-  width: 100px; 
+
+#container {
+  width: 310px;
+  height: 400px;
+  min-width: 310px;
+  max-width: 800px;
+  margin: 0 auto;
 }
+
+
 
 
 
