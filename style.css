@@ -22,6 +22,13 @@ video {
   max-height: 100%;
 }
 
+header nav ul {
+  color: white;
+  background-color: black;
+}
+header nav ul li {
+  text-decoration: none; 
+}
 
 /*
 button {
