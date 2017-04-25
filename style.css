@@ -45,10 +45,10 @@ video {
 
 
 #container {
-  width: 310px;
-  height: 400px;
-  min-width: 310px;
-  max-width: 800px;
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
