@@ -43,6 +43,11 @@ video {
   max-height: 100%;
 }
 
+#chart {
+  height: 100px;
+  width: 100px; 
+}
+
 
 
 /*
