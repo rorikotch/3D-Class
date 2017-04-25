@@ -7,6 +7,7 @@ margin-bottom: 10px;
 max-width: 100%;
 max-height: 100%;
 color: black;
+margin-top: 0;
 }
 
 p {
@@ -22,12 +23,20 @@ video {
   max-height: 100%;
 }
 
+header nav {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 header nav ul {
-  color: white;
   background-color: black;
+  list-style: none;
+  color: white;
+  padding: 0;
 }
 header nav ul li {
-  text-decoration: none; 
+  display: inline-block;
+  margin: 10px;
 }
 
 /*
