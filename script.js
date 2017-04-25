@@ -15,6 +15,12 @@ Highcharts.chart("container", {
         }
     },
 
+    xAxis: {
+        title: {
+            text: "Years"
+        }
+    },
+
     plotOptions: {
         series: {
             pointStart: 2010
