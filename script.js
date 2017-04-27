@@ -1,6 +1,7 @@
-
-Highcharts.chart("containerfour", {
-
+$(function () { $('#id').highcharts ({
+chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'containerfour'},
     title: {
         text: "U.S. Milk Production 2010 to 2017"
     },
