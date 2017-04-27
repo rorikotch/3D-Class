@@ -1,7 +1,6 @@
-$(function () { $('#id').highcharts ({
-chart = new Highcharts.Chart({
+(function () { $('#container').highcharts ({
         chart: {
-            renderTo: 'containerfour'},
+            renderTo: 'container'},
     title: {
         text: "U.S. Milk Production 2010 to 2017"
     },
@@ -33,4 +32,5 @@ chart = new Highcharts.Chart({
         name: "Production",
         data: [16013000000, 16396000000, 17048000000, 17114000000, 17278000000, 17690000000, 17693000000, 18145000000]
     }]
+    })
   })
